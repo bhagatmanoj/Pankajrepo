@@ -3,6 +3,7 @@ module "web" {
   version = "~> 3.0"
 
   for_each = toset(["web1", "three"])
+manojmanoj 
 
   name = "instance-${each.key}"
 
